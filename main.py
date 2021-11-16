@@ -14,7 +14,7 @@ class cell():
         self.y = y_coord
     
     def draw():
-        pass
+        c.create_rectangle(10+(11*self.x), 10+(11*self.y), 20+(11*self.x), 20+(11*self.y), fill='red', outline='black')
 
     def create():
         pass
