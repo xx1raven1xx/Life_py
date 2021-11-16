@@ -13,11 +13,18 @@ class cell():
         self.x = x_coord
         self.y = y_coord
     
+    def draw():
+        pass
+
     def create():
         pass
     
     def death():
         pass
+    
+    def update():
+        pass
+
 '''
 
 
@@ -29,12 +36,9 @@ def cell():
 
 
 def main():
-    while True:
-        cell()
-        root.update_idletasks()
-        root.update()
-        time.sleep(0.1)
-        #root.mainloop()
+    cell()
+    root.after(500,main)
+    root.mainloop()
 
 
 if __name__ == "__main__":
