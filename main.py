@@ -1,4 +1,5 @@
 import tkinter as tk
+import time
 
 root = tk.Tk()
 c = tk.Canvas(root, height=300, width=500, bg='black')
@@ -11,6 +12,12 @@ class cell():
     def __init__(x_coord, y_coord):
         self.x = x_coord
         self.y = y_coord
+    
+    def create():
+        pass
+    
+    def death():
+        pass
 '''
 
 
@@ -22,8 +29,12 @@ def cell():
 
 
 def main():
-    cell()
-    root.mainloop()
+    while True:
+        cell()
+        root.update_idletasks()
+        root.update()
+        time.sleep(0.1)
+        #root.mainloop()
 
 
 if __name__ == "__main__":
