@@ -4,9 +4,7 @@ import tkinter as tk
 root = tk.Tk()
 c = tk.Canvas(root, height=300, width=500, bg='black')
 c.pack()
-# с.configure(background='black')
 
-# c.create_rectangle(10,10,20,20, fill='red')
 
 class cell():
     def __init__(self, x_coord, y_coord):
