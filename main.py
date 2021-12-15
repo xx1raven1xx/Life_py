@@ -17,15 +17,22 @@ class cell():
     def __init__(self, x_coord, y_coord):
         self.x = x_coord
         self.y = y_coord
-        self.id = c.create_rectangle(10+(11*self.x), 10+(11*self.y), 20+(11*self.x), 20+(11*self.y), fill='red', outline='black')
+        # self.id = c.create_rectangle(10+(11*self.x), 10+(11*self.y), 20+(11*self.x), 20+(11*self.y), fill='red', outline='black')
     
     def draw(self):
+        self.id = c.create_rectangle(10+(11*self.x), 10+(11*self.y), 20+(11*self.x), 20+(11*self.y), fill='red', outline='black')
         pass
 
     def create():
+        '''Функция рождения клетки'''
         pass
     
     def death():
+        '''Функция смерти клетки'''
+        pass
+
+    def check():
+        '''Поверка окружения'''
         pass
     
     def update():
