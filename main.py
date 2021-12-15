@@ -1,4 +1,6 @@
 import tkinter as tk
+import random
+
 
 '''
 Правила игры жизнь: 
@@ -31,9 +33,8 @@ class cell():
 
 
 def drawcell():
-    for i in range(44):
-        for n in range(26):
-            c1 = cell(i, n)
+    for i in range(20):
+        c1 = cell(random.randint(0, 44), random.randint(0, 26))
 
 
 def main():
