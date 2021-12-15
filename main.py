@@ -33,7 +33,7 @@ class cell():
 
 
 def drawcell():
-    for i in range(20):
+    for i in range(25):
         c1 = cell(random.randint(0, 44), random.randint(0, 26))
 
 
