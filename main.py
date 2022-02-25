@@ -33,8 +33,9 @@ class cell():
         '''Функция рождения клетки'''
         pass
     
-    def death():
+    def death(self):
         '''Функция смерти клетки'''
+        c.delete(self.id)
         pass
 
     def check():
